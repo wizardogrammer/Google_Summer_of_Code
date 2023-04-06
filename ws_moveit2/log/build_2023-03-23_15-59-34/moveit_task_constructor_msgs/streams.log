@@ -1,0 +1,27 @@
+[0.611s] Invoking command in '/home/ehsan/Documents/GitHub/Google_Summer_of_Code/ws_moveit2/build/moveit_task_constructor_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/ehsan/.local/bin/cmake /home/ehsan/Documents/GitHub/Google_Summer_of_Code/ws_moveit2/src/moveit_task_constructor/msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ehsan/Documents/GitHub/Google_Summer_of_Code/ws_moveit2/install/moveit_task_constructor_msgs
+[0.685s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.000s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.091s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.101s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.123s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.167s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.209s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.242s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[3.041s] [31mCMake Error at CMakeLists.txt:7 (find_package):
+[3.041s]   By not providing "Findrosidl_default_generators.cmake" in CMAKE_MODULE_PATH
+[3.041s]   this project has asked CMake to find a package configuration file provided
+[3.041s]   by "rosidl_default_generators", but CMake did not find one.
+[3.041s] 
+[3.042s]   Could not find a package configuration file provided by
+[3.042s]   "rosidl_default_generators" with any of the following names:
+[3.042s] 
+[3.042s]     rosidl_default_generatorsConfig.cmake
+[3.042s]     rosidl_default_generators-config.cmake
+[3.042s] 
+[3.042s]   Add the installation prefix of "rosidl_default_generators" to
+[3.042s]   CMAKE_PREFIX_PATH or set "rosidl_default_generators_DIR" to a directory
+[3.042s]   containing one of the above files.  If "rosidl_default_generators" provides
+[3.042s]   a separate development package or SDK, be sure it has been installed.
+[3.042s] 
+[3.042s] [0m
+[3.043s] -- Configuring incomplete, errors occurred!
